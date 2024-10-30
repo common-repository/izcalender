@@ -1,0 +1,128 @@
+/*Defualt CSS called by user-interface in sidebar */
+div#izc-widget div#ui-izc div#ui-iz-calender-events {}
+
+div#izc-widget div#ui-izc {}
+
+div#izc-widget div#ui-izc div#ui-iz-calender-events div.event-content {
+	background-color:#f2f2f2;
+	float:left;
+	width:150px !important;
+	color:#333;
+	border:1px solid #999;
+	padding:20px;
+	line-height:22px;
+}
+
+div#izc-widget div#ui-izc div#ui-iz-calender-events div.event-content a{
+	color:#333;
+}
+
+div#izc-widget div#ui-izc div#ui-iz-calender-events div.right.arrow-right,
+div#izc-widget div#ui-izc div#ui-iz-calender-events div.left.arrow-left{
+	float:left;
+	width:7px;
+	height:20px;
+	background-position:0px 5px;
+	background-repeat:no-repeat;
+}
+
+div#izc-widget div#ui-izc div#ui-iz-calender-events div.left.arrow-left {
+	background-image:url(../images/arrow-right.png);
+	margin-left:-1px;
+}
+div#izc-widget div#ui-izc div#ui-iz-calender-events div.right.arrow-right {
+	background-image:url(../images/arrow-left.png);
+	margin-right:-1px;
+	position: relative;
+	z-index:3;
+}
+div#izc-widget div#ui-izc div#ui-iz-calender-events div.close.right a,
+div#izc-widget div#ui-izc div#ui-iz-calender-events div.close.left a{
+	-moz-border-radius:5px 5px 5px 5px;
+	background-color:#E7E7E7;
+	border:1px solid #999999;
+	color:#666666;
+	font-size:10px;
+	padding:0 3px;
+	position:absolute;
+	top:10px;
+	text-decoration:none;
+}
+
+div#izc-widget div#ui-izc div#ui-iz-calender-events div.close.left a {
+	left:10px;
+}
+
+div#izc-widget div#ui-izc div#ui-iz-calender-events div.close.right a {
+	right:10px;
+}
+
+div#izc-widget div#ui-izc div#ui-iz-calender-events div.close a:hover {
+	background-color:#ccc;
+	color:#666666;
+	text-decoration:none;
+}
+
+ul.events-list{
+	margin:10px 3px 0px 10px;
+	padding:0px;	
+}
+
+ul.events-list li{}
+ul.events-list li a{
+	text-decoration:none;
+	font-weight:normal;
+}
+
+ul.events-list li a:hover{
+	text-decoration:underline;
+}
+
+div#izc-widget table{
+	font-size:12px;
+}
+
+div#izc-widget td a{
+	text-decoration:none;
+}
+
+/* Content View */
+div.izc-event-description-wrapper div.izc-event-title{}
+
+div.izc-event-description-wrapper div.izc-event-title h3{}
+
+div.izc-event-description-wrapper div.izc-event-date{}
+
+div.izc-event-description-wrapper div.izc-event-venue{}
+
+div.izc-event-description-wrapper div.izc-event-dessciption{
+	margin-top:15px;
+}
+
+div.izc-event-description-wrapper div.izc-event-actions{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+div.izc-event-description-wrapper div.izc-event-actions a{
+	text-decoration:none;
+}
+
+div.izc-event-description-wrapper div.izc-event-actions a img{
+	border:none;
+	margin-right:7px;
+}
+
+div.izc-event-item div.event-date{
+	font-size:14px;
+}
+div.izc-event-item div.event-name{
+	font-weight:bold;
+	font-size:14px;
+}
+div.izc-event-item div.event-description{
+	margin-top:5px;
+	margin-bottom:17px;
+	
+}
+
